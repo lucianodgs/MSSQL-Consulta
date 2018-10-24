@@ -5,7 +5,7 @@ con = pymssql.connect(host = 'xxx', user = 'xxx',  password = 'xxx', database = 
 
 cursor = con.cursor()
 
-#print(query)
+# print(query)
 cursor.execute(query)
 query = ("select  * from xxxxx" )
 rows = cursor.fetchall()
